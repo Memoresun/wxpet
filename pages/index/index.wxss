@@ -1,0 +1,62 @@
+/**index.wxss**/
+.index-swiper-wrapper{
+  width: 750rpx;
+  height: 440rpx;
+}
+.index-swiper-wrapper .slide-image {
+  width: 750rpx;
+  height: 440rpx;
+}
+.index-nav{
+  width: 750rpx;
+}
+.index-nav .index-nav-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30rpx 0 10rpx 0;
+}
+.index-nav .index-nav-item{
+  width: 150rpx;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-bottom: 20rpx;
+}
+.index-nav-item image{
+  width: 82rpx;
+  height: 82rpx;
+}
+.index-nav-item text{
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.index-special{
+  width: 750rpx;
+  height: 360rpx;
+  background-color: #eee;
+  padding: 20rpx 0;
+}
+.index-special image{
+  width: 750rpx;
+  height: 360rpx;
+}
+.index-coupon{
+  width: 750rpx;
+  height: 360rpx;
+  background-color: #efeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index-banner{
+  margin: 20rpx 0;
+}
+.index-banner-item{
+  width: 750rpx;
+  height: 360rpx;
+}
+.index-banner-item image{
+  width: 750rpx;
+  height: 360rpx;
+}

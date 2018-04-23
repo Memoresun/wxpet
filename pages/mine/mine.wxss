@@ -1,0 +1,57 @@
+.mine-back{
+    width: 750rpx;
+    height: 288rpx;
+    border-top: 1rpx solid #ccc;
+    display: flex;
+    align-items: center;
+}
+.mine-head{
+    margin-left: 60rpx;
+}
+.mine-head image{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+}
+.mine-info{
+    margin-left: 25rpx;
+    display: flex;
+    flex-direction: column;
+}
+.mine-info text{
+    font-size: 26rpx;
+}
+.mine-signin{
+    flex: auto;
+    text-align: right;
+    margin-right: 20rpx;
+}
+.mine-signin text{
+    font-size: 24rpx;
+}
+.mine-balance{
+    width: 750rpx;
+    height: 134rpx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mine-b-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mine-b-num{
+    font-size: 40rpx;
+    color: #f06518;
+    margin-bottom: 20rpx;
+}
+.mine-b-name{
+    font-size: 26rpx;
+}
+
+.app-line{
+    width: 750rpx;
+    height: 22rpx;
+    background-color: #eee;
+}

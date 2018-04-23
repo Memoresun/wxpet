@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="app">
+  <swiper class="index-swiper-wrapper" indicator-dots="true" indicator-color="#bfbfbf" indicator-active-color="#f65963" autoplay="true"
+    interval="5000" duration="1000">
+    <swiper-item wx:for="{{slide}}" wx:key="slide">
+      <image src="{{item}}" class="slide-image" mode="aspectFit" bindtap="toPage" />
+    </swiper-item>
+  </swiper>
+  <view class="index-nav">
+    <view class="index-nav-list">
+      <view class="index-nav-item" wx:for="{{nav}}">
+        <image src="{{item.icon}}"></image>
+        <text class="">{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="index-special">
+    <image src="http://chongyouchong.com/uploadfile/seller/image/20180117/index-zhuanchang.png"></image>
+  </view>
+  <view class="index-coupon">
+    优惠券
+  </view>
+  <view clas="index-banner">
+    <view class="index-banner-item" wx:for="{{banner}}">
+      <image src="{{item}}"></image>
+    </view>
+  </view>
+</view>

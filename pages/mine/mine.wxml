@@ -1,0 +1,26 @@
+<view class="app">
+    <view class="mine-back">
+        <view class="mine-head">
+            <image src="/images/132.jpg"></image>
+        </view>
+        <view class="mine-info">
+            <text>毛毛虫公主</text>
+            <text>15168412330</text>
+        </view>
+        <view class="mine-signin">
+            <text>签到</text>
+        </view>
+    </view>
+    <view class="app-line"></view>
+    <view class="mine-balance">
+        <view class="mine-b-item">
+            <text class="mine-b-num">10</text>
+            <text class="mine-b-name">积分</text>
+        </view>
+        <view class="mine-b-item">
+            <text class="mine-b-num">50</text>
+            <text class="mine-b-name">余额</text>
+        </view>
+    </view>
+    <view class="app-line"></view>
+</view>
