@@ -1,0 +1,55 @@
+<view class="app">
+    <view class="pet-tab">
+        <view class="tab-item active">待售萌宠</view>
+        <view class="tab-item">种公借配</view>
+    </view>
+    <view class="pet-er-tab">
+        <view class="er-tab-item">品种</view>
+        <view class="er-tab-item">地区</view>
+        <view class="er-tab-item">价格</view>
+    </view>
+    <view class="pet-list">
+        <view class="pet-item">
+            <view class="pet-item-wrapimg">
+               
+            </view>
+            <view class="pet-item-des">
+                <view class="pet-item-title">
+                    <text>迷你雪纳瑞</text>
+                    <text class="age">11个月</text>
+                </view>
+                <view class="pet-item-date">
+                    <text>出生日期:</text>
+                    <text style="margin-left: 12rpx;">2016-02-22</text>
+                </view>
+                <view class="pet-item-price">
+                    ￥44
+                </view>
+                <view class="pet-item-price">
+                    ￥44
+                </view>
+            </view>
+        </view>
+        <view class="pet-item">
+                <view class="pet-item-wrapimg">
+                   
+                </view>
+                <view class="pet-item-des">
+                    <view class="pet-item-title">
+                        <text>迷你雪纳瑞</text>
+                        <text class="age">11个月</text>
+                    </view>
+                    <view class="pet-item-date">
+                        <text>出生日期:</text>
+                        <text style="margin-left: 12rpx;">2016-02-22</text>
+                    </view>
+                    <view class="pet-item-price">
+                        ￥44
+                    </view>
+                    <view class="pet-item-price">
+                        ￥44
+                    </view>
+                </view>
+            </view>
+    </view>
+</view>

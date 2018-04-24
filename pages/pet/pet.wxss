@@ -1,0 +1,77 @@
+page{
+    background-color: #eee;
+}
+.pet-tab{
+    width: 750rpx;
+    height: 100rpx;
+    background-color: #fff;
+    padding: 0 18rpx;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+.tab-item{
+    width: 322rpx;
+    height: 60rpx;
+    display: flex;
+    border-radius: 80rpx;
+    border:2rpx solid #f06518;
+    font-size: 32rpx;
+    align-items: center;
+    justify-content: center;
+}
+.tab-item.active{
+    color:#fff;
+    background-color: #f06518;
+}
+
+.pet-er-tab{
+    width: 750rpx;
+    height: 60rpx;
+    background-color: #fff;
+    display: flex;
+}
+.er-tab-item{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30rpx;
+    border-right: 1rpx solid #eee;
+    margin: 5rpx 0;
+}
+.er-tab-item:last-child{
+    border: 0;
+}
+.pet-list{
+    margin: 20rpx 18rpx 0 18rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pet-item{
+    width: 350rpx;
+    background-color: #fff;
+}
+.pet-item-wrapimg{
+    width: 350rpx;
+    height: 270rpx;
+}
+.pet-item-des{
+    padding: 0 12rpx;
+}
+.pet-item-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 32rpx;
+}
+.pet-item-title .age{
+    font-size: 24rpx;
+}
+.pet-item-date{
+    font-size: 28rpx;
+}
+.pet-item-price{
+    font-size: 28rpx;
+}

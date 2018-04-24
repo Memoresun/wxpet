@@ -49,9 +49,69 @@
 .mine-b-name{
     font-size: 26rpx;
 }
+.mine-order-title,.mine-daily-title{
+    font-size: 40rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    padding-left: 16rpx;
+}
+.mine-order-list,.mine-daily-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30rpx 0;
+    border-top: 1rpx solid #ccc;
+}
+.mine-order-item{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mine-order-item image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-bottom: 25rpx;
+}
+.mine-order-item text{
+    font-size: 28rpx;
+}
+.mine-daily-item{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1rpx solid #ccc;
+}
+.mine-daily-item:last-child{
+    border:none;
+}
+.mine-daily-item image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-bottom: 18rpx;
+}
+.mine-daily-item text{
+    font-size: 24rpx;
+}
 
-.app-line{
+.mine-other{
     width: 750rpx;
-    height: 22rpx;
-    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mine-other-item{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40rpx 0;
+}
+.mine-other-item image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-bottom: 30rpx;
+}
+.mine-other-item text{
+    font-size: 24rpx;
 }

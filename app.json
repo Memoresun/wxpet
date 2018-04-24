@@ -1,9 +1,13 @@
 {
   "pages":[
+    "pages/seller/seller",
+    "pages/pet/pet",
+    "pages/goods/goods",
+    "pages/cart/cart",
+    "pages/category/category",
     "pages/mine/mine",
     "pages/index/index",
-    "pages/category/category",
-    "pages/cart/cart"
+    "pages/ranklist/ranklist"
   ],
   "tabBar":{
     "list":[{

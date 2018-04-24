@@ -23,4 +23,84 @@
         </view>
     </view>
     <view class="app-line"></view>
+    <view class="mine-order">
+        <view class="mine-order-title">我的订单</view>
+        <view class="mine-order-list">
+            <view class="mine-order-item">
+                <image src="/images/dai1.png"></image>
+                <text>待付款</text>
+            </view>
+            <view class="mine-order-item">
+                <image src="/images/dai2.png"></image>
+                <text>待发货</text>
+            </view>
+            <view class="mine-order-item">
+                <image src="/images/dai3.png"></image>
+                <text>待收货</text>
+            </view>
+            <view class="mine-order-item">
+                <image src="/images/dai4.png"></image>
+                <text>待评价</text>
+            </view>
+            <view class="mine-order-item">
+                <image src="/images/dai5.png"></image>
+                <text>售货/退款</text>
+            </view>
+        </view>
+    </view>
+    <view class="app-line"></view>
+
+    <view class="mine-daily">
+        <view class="mine-daily-title">日常管理</view>
+        <view class="mine-daily-list">
+            <view class="mine-daily-item">
+                <image src="/images/my-pet.png"></image>
+                <text>我的宠物</text>
+            </view>
+            <view class="mine-daily-item">
+                <image src="/images/my-shopcar.png"></image>
+                <text>购物车</text>
+            </view>
+            <view class="mine-daily-item">
+                <image src="/images/my-collect.png"></image>
+                <text>我的收藏</text>
+            </view>
+            <view class="mine-daily-item">
+                <image src="/images/my-tuiguang.png"></image>
+                <text>邀请好友</text>
+            </view>
+        </view>
+    </view>
+    <view class="app-line"></view>
+    
+    <view class="mine-other">
+        <view class="mine-other-item">
+            <image src="/images/my-money.png"></image>
+            <text>账户明细</text>
+        </view>
+        <view class="mine-other-item">
+            <image src="/images/my-address.png"></image>
+            <text>收货地址</text>
+        </view>
+        <view class="mine-other-item">
+            <image src="/images/my-pifashang.png"></image>
+            <text>批发商入驻</text>
+        </view>
+        <view class="mine-other-item">
+            <image src="/images/my-fanyushang.png"></image>
+            <text>繁育商入驻</text>
+        </view>
+        <view class="mine-other-item">
+            <image src="/images/my-jifeng.png"></image>
+            <text>积分明细</text>
+        </view>
+        <view class="mine-other-item">
+            <image src="/images/youhuiquan.png"></image>
+            <text>我的优惠券</text>
+        </view>
+        <view class="mine-other-item">
+            <image src="/images/my-kefu.png"></image>
+            <text>我的客服</text>
+        </view>
+    </view>
 </view>

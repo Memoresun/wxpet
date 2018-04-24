@@ -1,0 +1,42 @@
+<view class="app">
+    <view class="goods-search">
+        <view style="position: relative;">
+            <input class="goods-search-input" placeholder="搜索美食"/>
+            <icon type="search" size="15" color="rgb(166, 166, 166)" />
+        </view>
+    </view>
+    <view class="goods-tab">
+        <view class="tab-item">综合</view>
+        <view class="tab-item">新品</view>
+        <view class="tab-item">销量</view>
+        <view class="tab-item">价格</view>
+    </view>
+    <view class="goods-list">
+        <view class="goods-item">
+            <view class="goods-item-wrapimg">
+
+            </view>
+            <view class="goods-item-des">
+                <view class="goods-t">路费</view>
+                <view class="goods-rmb">￥11</view>
+            </view>
+        </view>
+        <view class="goods-item">
+            <view class="goods-item-wrapimg">
+            </view>
+            <view class="goods-item-des">
+                <view class="goods-t">路费</view>
+                <view class="goods-rmb">￥11</view>
+            </view>
+        </view>
+        <view class="goods-item">
+            <view class="goods-item-wrapimg">
+
+            </view>
+            <view class="goods-item-des">
+                <view class="goods-t">路费</view>
+                <view class="goods-rmb">￥11</view>
+            </view>
+        </view>
+    </view>
+</view>

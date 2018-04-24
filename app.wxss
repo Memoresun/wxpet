@@ -4,3 +4,8 @@
   width: 100%;
   height: 100%;
 }
+.app-line{
+  width: 750rpx;
+  height: 22rpx;
+  background-color: #eee;
+}

@@ -1,0 +1,48 @@
+<view class="app">
+    <view class="category-search">
+        <view class="search-con">
+          
+        </view>
+        <view class="cart-icon">
+            <image src="/images/goods-shopcar.png"></image>
+        </view>
+    </view>
+    <view class="app-line"></view>
+    <view class="category-main">
+        <view class="category-left">
+            <view class="category-name active">狗粮专区</view>
+            <view class="category-name">猫粮专区</view>
+            <view class="category-name">狗狗零食</view>
+            <view class="category-name">猫咪零食</view>
+            <view class="category-name">狗狗医疗</view>
+        </view>
+        <view class="category-right">
+            <view class="category-right-ad">
+                <image src="/images/seller-banner.png"></image>
+            </view>
+            <view class="category-right-t">
+                <image src="/images/goods-color1.png"></image>
+                <text>商品类目</text>
+                <image src="/images/goods-color1.png"></image>
+            </view>
+            <view class="category-list">
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>国产粮</text>
+                </view>
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>幼犬粮</text>
+                </view>
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>成犬粮</text>
+                </view>
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>老成犬粮</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

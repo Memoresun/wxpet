@@ -1,0 +1,49 @@
+<view class="app">
+    <view class="seller-tab">
+        <view class="tab-item active">繁育商家</view>
+        <view class="tab-item">批发商家</view>
+    </view>
+    <view class="seller-search">
+        <view class="search-con">
+            <input class="seller-search-input" placeholder="搜索美食" />
+            <icon type="search" size="15" color="rgb(166, 166, 166)" />
+        </view>
+        <view class="search-btn">搜索</view>
+    </view>
+    <view class="seller-er-tab">
+        <view class="er-tab-item active">全部</view>
+        <view class="er-tab-item">成交量优先</view>
+    </view>
+    <view class="seller-list">
+        <view class="seller-item">
+            <view class="seller-item-wrapimg">
+
+            </view>
+            <view class="seller-item-con">
+                <view class="seller-item-line" style="margin-bottom: 24rpx;">
+                    <text>皇家西宠物用品便利店</text>
+                    <text>繁育</text>
+                </view>
+                <view class="seller-item-line">
+                    <text>保证金:10万元</text>
+                    <text>累计销量:1</text>
+                </view>
+            </view>
+        </view>
+        <view class="seller-item">
+                <view class="seller-item-wrapimg">
+    
+                </view>
+                <view class="seller-item-con">
+                    <view class="seller-item-line" style="margin-bottom: 24rpx;">
+                        <text>皇家西宠物用品便利店</text>
+                        <text>繁育</text>
+                    </view>
+                    <view class="seller-item-line">
+                        <text>保证金:10万元</text>
+                        <text>累计销量:1</text>
+                    </view>
+                </view>
+            </view>
+    </view>
+</view>
