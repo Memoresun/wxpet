@@ -1,0 +1,27 @@
+<view class="app">
+    <view class="signin-hd">
+        <view class="signin-wrapimg">
+
+        </view>
+        <view class="signin-name">wpl</view>
+        <view class="signin-btn">签到</view>
+        <view class="">明日签到可获得18积分</view>
+        <view class="">(100积分=1元)</view>
+    </view>
+    <view class="signin-cells">
+        <view class="signin-cell">
+            <text>累计签到</text>
+            <text>3天</text>
+        </view>
+        <view class="signin-cell">
+            <text>连续签到</text>
+            <text>1天</text>
+        </view>
+        <view class="signin-cell">
+            <text>累计获得积分</text>
+            <text>17</text>
+        </view>
+    </view>
+    <view class="">还有更多获得积分的方法哦！</view>
+    <view class=""></view>
+</view>
