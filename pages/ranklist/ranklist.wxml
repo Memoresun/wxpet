@@ -1,0 +1,50 @@
+<view class="app">
+    <swiper class="ranklist-swiper-wrapper" indicator-dots="true" indicator-color="#bfbfbf" indicator-active-color="#f65963" autoplay="true"
+        interval="5000" duration="1000">
+        <swiper-item wx:for="{{slide}}" wx:key="slide">
+            <image src="{{item}}" class="slide-image" bindtap="toPage" />
+        </swiper-item>
+    </swiper>
+    <view class="ranklist">
+        <view class="ranklist-title">
+            <text>商家</text>
+            <text>总积分</text>
+        </view>
+        <view class="ranklist-list">
+            <view class="ranklist-item">
+                <view class="ranklist-item-hd">
+                    <view class="ranklist-item-bd1">1</view>
+                    <view class="ranklist-item-wrapimg">
+                        <image src="/images/132.jpg"></image>
+                    </view>
+                    <view class="ranklist-item-name">萌宠相关大市场</view>
+                    <view class="ranklist-item-type">批发商</view>
+                    <view class="ranklist-item-go">进入店铺</view>
+                </view>
+                <view class="ranklist-item-ft">
+                    <text>1078</text>
+                    <text>积分</text>
+                </view>
+            </view>
+            <view class="ranklist-item">
+                    <view class="ranklist-item-hd">
+                        <view class="ranklist-item-bd1">1</view>
+                        <view class="ranklist-item-wrapimg">
+                            <image src="/images/132.jpg"></image>
+                            <image  class="grade" src="/images/ranking_yi.png"></image>
+                        </view>
+                        <view class="ranklist-item-name">萌宠相关大市场哈哈哈哈哈哈哈哈</view>
+                        <view class="ranklist-item-type">
+                            <image src="/images/maomao.png"></image>
+                            <text>批发商</text>
+                        </view>
+                        <view class="ranklist-item-go">进入店铺</view>
+                    </view>
+                    <view class="ranklist-item-ft">
+                        <text>1078</text>
+                        <text>积分</text>
+                    </view>
+                </view>
+        </view>
+    </view>
+</view>

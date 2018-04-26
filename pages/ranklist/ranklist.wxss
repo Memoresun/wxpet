@@ -1,0 +1,102 @@
+page {
+    background-color: #eee;
+}
+
+.ranklist-swiper-wrapper {
+    width: 750rpx;
+    height: 300rpx;
+}
+
+.ranklist-swiper-wrapper .slide-image {
+    width: 750rpx;
+    height: 300rpx;
+}
+
+.ranklist {
+    margin: 20rpx;
+}
+
+.ranklist-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28rpx;
+    height: 30rpx;
+    align-items: center;
+    margin-bottom: 20rpx;
+    color: #8d8d8d;
+}
+
+.ranklist-item {
+    width: 100%;
+    height: 160rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 16rpx;
+    font-size: 28rpx;
+}
+
+.ranklist-item-hd {
+    display: flex;
+    align-items: center;
+}
+
+.ranklist-item-bd1 {
+    width: 50rpx;
+    text-align: center;
+}
+
+.ranklist-item-wrapimg {
+    width: 120rpx;
+    height: 100rpx;
+    position: relative;
+}
+
+.ranklist-item-wrapimg image {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.ranklist-item-wrapimg .grade {
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    right: 0;
+    top: -20rpx;
+}
+
+.ranklist-item-name {
+    width: 200rpx;
+    margin-left: 10rpx;
+    overflow: hidden;
+}
+
+.ranklist-item-type {
+    width: 110rpx;
+    font-size: 24rpx;
+    color: #898989;
+    margin-left: 10rpx;
+    display: flex;
+    align-items: center;
+}
+
+.ranklist-item-type image {
+    width: 28rpx;
+    height: 28rpx;
+    margin-right: 10rpx;
+}
+
+.ranklist-item-go {
+    width: 100rpx;
+    font-size: 24rpx;
+    color: #e22213;
+    margin-left: 10rpx;
+}
+
+.ranklist-item-ft {
+    display: flex;
+    flex-direction: column;
+    width: 100rpx;
+    align-items: center;
+}

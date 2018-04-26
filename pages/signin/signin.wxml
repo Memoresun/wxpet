@@ -1,27 +1,46 @@
 <view class="app">
     <view class="signin-hd">
         <view class="signin-wrapimg">
-
+            <image src="/images/132.jpg"></image>
         </view>
         <view class="signin-name">wpl</view>
         <view class="signin-btn">签到</view>
-        <view class="">明日签到可获得18积分</view>
-        <view class="">(100积分=1元)</view>
+        <view class="signin-t1">明日签到可获得18积分</view>
+        <view class="signin-t2">(100积分=1元)</view>
     </view>
     <view class="signin-cells">
         <view class="signin-cell">
             <text>累计签到</text>
-            <text>3天</text>
+            <text class="">3天</text>
         </view>
         <view class="signin-cell">
             <text>连续签到</text>
-            <text>1天</text>
+            <text class="">1天</text>
         </view>
         <view class="signin-cell">
             <text>累计获得积分</text>
-            <text>17</text>
+            <text class="">17</text>
         </view>
     </view>
-    <view class="">还有更多获得积分的方法哦！</view>
-    <view class=""></view>
+    <view class="signin-mid-t">还有更多获得积分的方法哦！</view>
+    <view class="signin-share">
+        <view class="signin-share-line">
+            <view class="share-line-left">
+                <text>邀请好友注册获得积分</text>
+                <text class="line-l2">每邀请以为好友即可获得288积分</text>
+            </view>
+            <view class="signin-share-btn">前往邀请</view>
+        </view>
+        <view class="signin-shrew">
+            <view class="signin-share-line">
+                <view class="share-line-left">
+                    <text>购买商城产品获得得积分</text>
+                    <text  class="line-l2">每成功购买一件商品即可获得相应的积分</text>
+                </view>
+                <view class="signin-share-btn">
+                    前往商城
+                </view>
+            </view>
+        </view>
+    </view>
 </view>

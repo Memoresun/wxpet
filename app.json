@@ -1,14 +1,16 @@
 {
   "pages":[
+    "pages/integral/integral",
+    "pages/shopdetail/shopdetail",
+    "pages/ranklist/ranklist",
+    "pages/index/index",
     "pages/signin/signin",
     "pages/seller/seller",
     "pages/pet/pet",
     "pages/goods/goods",
     "pages/cart/cart",
     "pages/category/category",
-    "pages/mine/mine",
-    "pages/index/index",
-    "pages/ranklist/ranklist"
+    "pages/mine/mine"
   ],
   "tabBar":{
     "list":[{

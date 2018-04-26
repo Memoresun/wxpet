@@ -1,0 +1,79 @@
+<view class="app">
+    <!-- 批发商 -->
+    <view class="shopdetail-head">
+        <view class="shopdetail-search">
+            <view style="position: relative;">
+                <input class="shopdetail-search-input" placeholder="搜索美食" />
+                <icon type="search" size="15" color="rgb(166, 166, 166)" />
+            </view>
+        </view>
+        <view class="shopdetail-headcon">
+            <view class="shopdetail-headl">
+                <view class="shopdetail-headl-wrapimg">
+                    <image src="/images/132.jpg"></image>
+                </view>
+                <view class="shopdetail-headl-name">
+                    <view class="headl-name-top">
+                        <view class="headl-name-left">
+                            <text style="font-size:28rpx;">福来恩</text>
+                            <image src="/images/my-pet.png"></image>
+                        </view>
+                        <view class="headl-name-right">
+                            <text>8978</text>
+                            <text>8978</text>
+                        </view>
+                    </view>
+
+                    <view class="headl-name-bottom">
+                        <view class="headl-name-left">
+                            <text>保证金:</text>
+                            <text style="margin-left:15rpx;">12489元</text>
+                        </view>
+                        <view class="headl-name-right">
+                            <text>累计销量</text>
+                            <text>收藏</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="shopdetail-collect">收藏店铺</view>
+        </view>
+    </view>
+    <view class="category-main">
+        <view class="category-left">
+            <view class="category-name active">狗粮专区</view>
+            <view class="category-name">猫粮专区</view>
+            <view class="category-name">狗狗零食</view>
+            <view class="category-name">猫咪零食</view>
+            <view class="category-name">狗狗医疗</view>
+        </view>
+        <view class="category-right">
+            <view class="category-right-ad">
+                <image src="/images/seller-banner.png"></image>
+            </view>
+            <view class="category-right-t">
+                <image src="/images/goods-color1.png"></image>
+                <text>商品类目</text>
+                <image src="/images/goods-color1.png"></image>
+            </view>
+            <view class="category-list">
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>国产粮</text>
+                </view>
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>幼犬粮</text>
+                </view>
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>成犬粮</text>
+                </view>
+                <view class="category-item">
+                    <image src="/images/seller-banner.png"></image>
+                    <text>老成犬粮</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

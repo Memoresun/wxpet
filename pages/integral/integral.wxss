@@ -1,0 +1,11 @@
+page{
+    background-color: #eee;
+}
+.integral-head{
+    width: 750rpx;
+    height: 24rpx;
+}
+
+.integral-item image{
+    
+}
