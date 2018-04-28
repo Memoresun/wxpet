@@ -1,0 +1,64 @@
+page{
+    background-color: #f6f6f6;
+    height: 100%;
+    position: relative;
+}
+
+.cashpledge-head{
+    width: 750rpx;
+    height: 456rpx;
+    background: url('http://static.memorecool.cn/wx/pet/cashpledge-bg.png') no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cashpledge-head-con{
+    width: 330rpx;
+    height: 322rpx;
+    background-image: url('http://static.memorecool.cn/wx/pet/cashpledge-hdbg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cashpledge-text{
+    width: 330rpx;
+    height: 165rpx;
+    margin-top: 143rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cashpledge-amount{
+    font-size: 52rpx;
+    color: #e60505;
+    margin-bottom: 10rpx;
+}
+.cashpledge-title{
+    font-size: 28rpx;
+    color: #d74d01
+}
+.cashpledge-bd{
+    width: 750rpx;
+}
+.cashpledge-bd-des{
+    font-size: 12px;
+    color: #282828;
+    text-align: center;
+    margin-top: 80rpx;
+}
+.cashpledge-bd-btn{
+    width: 714rpx;
+    height: 90rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 18rpx;
+    color: #ffffff;
+    background-color: #ffb040;
+    font-size: 30rpx;
+    border-radius: 8rpx;
+
+    position: absolute;
+    bottom: 180rpx;
+}

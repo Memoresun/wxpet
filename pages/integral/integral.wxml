@@ -1,18 +1,16 @@
 <view class="app">
     <view class="integral-head">
-        <view>17</view>
+        <image class="integral-logo" src="/images/integral-logo.png"></image>
+        <view style="font-size:48rpx;">17</view>
         <view>当前积分</view>
-    </view>
-    <view class="integral-mid-t">
-        积分明细
     </view>
     <view class="integral-list">
         <view class="integral-item">
             <image src="/images/integral-type.png"></image>
-            <text>签到</text>
-            <text>2018/04/24 21:27:52</text>
+            <text class="integral-item-type">每日签到</text>
+            <text class="integral-item-time">2018/04/24 21:27:52</text>
             <image src="/images/integral-icon.png"></image>
-            <text>+5</text>
+            <text class="integral-item-add">+5</text>
         </view>
     </view>
 </view>

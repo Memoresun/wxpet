@@ -1,9 +1,11 @@
 {
   "pages":[
+    "pages/mypet/mypet",
+    "pages/cashpledge/cashpledge",
+    "pages/index/index",
     "pages/integral/integral",
     "pages/shopdetail/shopdetail",
     "pages/ranklist/ranklist",
-    "pages/index/index",
     "pages/signin/signin",
     "pages/seller/seller",
     "pages/pet/pet",

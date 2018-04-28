@@ -1,0 +1,8 @@
+
+
+.zan-cell__bd{
+    flex:none;
+}
+.zan-cell__ft{
+    flex: 1;
+}

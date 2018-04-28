@@ -1,0 +1,18 @@
+<view class="app">
+    <view class="cashpledge-head">
+        <veiew class="cashpledge-head-con">
+           <view class="cashpledge-text">
+               <text class="cashpledge-amount">15088元</text>
+               <text class="cashpledge-title">质保金</text>
+           </view>
+        </veiew>
+    </view>
+    <view class="cashpledge-bd">
+        <view class="cashpledge-bd-des">
+            解冻质保金后，店铺的所有数据将清零，请您慎重操作！
+        </view>
+        <view class="cashpledge-bd-btn">
+            解冻质保金
+        </view>
+    </view>
+</view>
