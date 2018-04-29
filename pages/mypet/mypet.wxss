@@ -1,5 +1,18 @@
+.app-flex{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.app-flex-item{
+  display: flex;
+  align-items: center;
+}
 
-
+.app-flex-item image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 15rpx;
+}
 .zan-cell__bd{
     flex:none;
 }

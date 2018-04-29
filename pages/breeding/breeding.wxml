@@ -1,0 +1,52 @@
+<view class="app">
+    <!-- f1 part -->
+    <view class="zan-panel">
+        <view class="zan-cell zan-cell--access">
+            <view class="zan-cell__bd">商家类型</view>
+        </view>
+    </view>
+    <!-- f2 part -->
+    <view class="zan-panel">
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">商家类型</view>
+            <input type="text" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入名称" />
+        </view>
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">地址</view>
+            <input type="text" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入地址" />
+        </view>
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">主理人</view>
+            <input type="text" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入名称" />
+        </view>
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">身份证</view>
+            <input type="number" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入身份证号码" />
+        </view>
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">手机</view>
+            <input type="number" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入手机号" />
+        </view>
+    </view>
+
+    <!-- f3 part-->
+    <view class="zan-panel">
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">银行卡</view>
+            <input type="text" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入银行卡号" />
+        </view>
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">持卡人姓名</view>
+            <input type="text" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入持卡人姓名" />
+        </view>
+        <view class="zan-cell zan-field">
+            <view class="zan-cell__hd zan-field__title">开户行</view>
+            <input type="text" class="zan-cell__bd zan-field_input zan-field__input--right" placeholder="请输入开户行" />
+        </view>
+    </view>
+
+    <!-- f4 part -->
+    <view class="zan-panel zan-panel--without-border">
+        <view class="zan-panel-title"></view>
+    </view>
+</view>

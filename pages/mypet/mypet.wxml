@@ -1,40 +1,48 @@
 <view class="app">
-    <view class="zan-panel">
-        <view>内容</view>
+  <view class="zan-panel">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">
+        <image src="/images/132.jpg"></image>
+      </view>
+      <view class="zan-cell__ft app-flex">
+        <view class="mypet-input-panel">
+          <input class="mypet-input" type="text" />
+        </view>
+      </view>
     </view>
-    <view class="zan-panel">
-        <view class="zan-cell">
-            <view class="zan-cell__bd">宠物性别</view>
-            <view class="zan-cell__ft">
-                <view>
-                    <text>MM</text>
-                </view>
-                <view>
-                    <text>GG</text>
-                </view>
-            </view>
+
+    <view class="zan-cell">
+      <view class="zan-cell__bd">宠物性别</view>
+      <view class="zan-cell__ft app-flex">
+        <view class="app-flex-item" style="margin-right:30rpx;">
+          <image src="/images/my-pet.png"></image>
+          <text>MM</text>
         </view>
+        <view class="app-flex-item">
+          <image src="/images/my-pet.png"></image>
+          <text>GG</text>
+        </view>
+      </view>
     </view>
-    <view class="zan-panel">
-        <view class="zan-cell zan-cell--access">
-            <view class="zan-cell__bd">宠物性别</view>
-            <view class="zan-cell__ft">选择宠物品种</view>
-        </view>
-        <view class="zan-cell zan-cell--access">
-            <view class="zan-cell__bd">宠物品种</view>
-            <view class="zan-cell__ft">选择宠物生日</view>
-        </view>
-        <view class="zan-cell zan-cell--access">
-            <view class="zan-cell__bd">到家时间</view>
-            <view class="zan-cell__ft">选填</view>
-        </view>
-        <view class="zan-cell zan-cell--access">
-            <view class="zan-cell__bd">绝育状态</view>
-            <view class="zan-cell__ft">
-                <picker bindchange="bindPickerChange" value="{{index4}}" range="{{array4}}">
-                    <view class="picker">{{array4[index4]}}</view>
-                </picker>
-            </view>
-        </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">宠物品种</view>
+      <view class="zan-cell__ft">选择宠物品种</view>
     </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">宠物品种</view>
+      <view class="zan-cell__ft">选择宠物生日</view>
+    </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">到家时间</view>
+      <view class="zan-cell__ft">选填</view>
+    </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">绝育状态</view>
+      <view class="zan-cell__ft">
+        <picker bindchange="bindPickerChange" value="{{index4}}" range="{{array4}}">
+          <view class="picker">{{array4[index4]}}</view>
+        </picker>
+      </view>
+    </view>
+  </view>
 </view>

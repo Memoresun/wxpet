@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/breeding/breeding",
     "pages/mypet/mypet",
     "pages/cashpledge/cashpledge",
     "pages/index/index",
